@@ -12,6 +12,10 @@ body {
   background-color: #e5e5e5;
 }
 
+main {
+  min-height: 100vh;
+}
+
 .sale-info {
   width: 100%;
   padding-top: 10px;
@@ -148,7 +152,6 @@ body {
 }
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -182,12 +185,5 @@ body {
   .container {
     flex-direction: column;
     align-items: center;
-  }
-}
-
-@media (min-width: 900px) and (max-width: 1280px) {
-  .footer {
-    position: relative;
-    width: 100%;
   }
 }
